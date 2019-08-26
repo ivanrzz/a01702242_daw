@@ -97,3 +97,28 @@ function act5() {
     document.write(num.split("").reverse().join(""));
     document.write('<br><br><a href="lab4.html"> Regresar a la página principal</a>');
 }
+
+function act6() {
+    let num = Math.floor(Math.random() * 1024)
+    document.write("Número = " + num);
+    let arr = new Array(15);
+    for (let i = 0; num >= 1; ++i) {
+        arr[i] = num % 2;
+        num = Math.floor(num / 2);
+    }
+    document.write("<br>Binario = " + arr.reverse().join(""));
+
+    let count1s = 0;
+    for (let j = 0; j < arr.length; j++) {
+        if (arr[j] == 1) {
+            count1s++;
+        }
+    }
+    if (count1s % 2 == 0) {
+        document.write("<br>Paridad par");
+    } else if (count1s % 2 == 1) {
+        document.write("<br>Paridad impar");
+    }
+
+    document.write('<br><br><a href="lab4.html"> Regresar a la página principal</a>');
+}
