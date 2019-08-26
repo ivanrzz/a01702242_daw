@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>LAB 4</title>
+</head>
+<header>
+    <h1><strong>Lab 4</strong><br>Ivan Ramirez Ramirez - A01702242</h1>
+</header>
+<nav>
+    <table class="tablas">
+        <tr>
+            <td> <a href="#Programas"> Programas en JavaScript </a> </td>
+            <td> <a href="#Preguntas"> Preguntas </a> </td>
+            <td> <a href="#AboutMe"> Sobre mí </a> </td> <!-- table column -->
+            <td> <a href="#Referencias"> Referencias </a> </td> <!-- table column -->
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+</nav>
+
+<body>
+    <section id="Programas">
+
+        <button onclick="act1()">Probar programa 1</button>
+        <button onclick="act2()">Probar programa 2</button>
+        <button onclick="act3()">Probar programa 3</button>
+        <button onclick="act4()">Probar programa 4</button>
+        <button onclick="act5()">Probar programa 5</button>
+
+    </section>
+
+    <section id="Preguntas">
+        <header>
+            <h2>Preguntas a responder</h2>
+        </header>
+        <p> <strong>¿Qué diferencias y semejanzas hay entre Java y JavaScript?</strong></p><br>
+        <strong>Diferencias</strong>
+
+        <table>
+            <tr>
+
+                <td><strong>Java </strong></td>
+
+                <td><strong>Javascript</strong></td>
+            </tr>
+            <tr>
+                <td>Java es un lenguaje fuertemente tipado y la variable debe declararse primero para usar en el programa. En Java, el tipo de una variable se verifica en tiempo de compilación</td>
+                <td>
+                    JavaScript es un lenguaje débilmente tipado y tiene una sintaxis y reglas más relajadas.</td>
+            </tr>
+            <tr>
+                <td>Java es un lenguaje de programación orientado a objetos.</td>
+                <td>JavaScript es un lenguaje de script basado en objetos.</td>
+            </tr>
+            <tr>
+                <td>
+                    Las aplicaciones Java pueden ejecutarse en cualquier máquina virtual (JVM) o navegador.</td>
+                <td>
+                    El código JavaScript se ejecuta solo en el navegador ya que JavaScript está desarrollado solo para el navegador.</td>
+            </tr>
+        </table>[1]
+        <br><br>
+        <strong>Semenjanzas</strong>
+        <ul>
+            <li>Ambos pueden correr en un explorador</li>
+            <li>Ambos pueden correr en un servidor</li>
+            <li>Ambos tienen librerias y frameworks[2]</li>
+        </ul>
+
+        <p><strong>¿Qué métodos tiene el objeto Date? (Menciona al menos 5*)</strong></p>
+        <ul>
+            <li>getFullYear():</li>
+            <li>getMillisecods();</li>
+            <li>getTime():</li>
+            <li>getDay():</li>
+            <li>getDate();[3]</li>
+        </ul>
+
+        <p><strong>¿Qué métodos tienen los arreglos? (Menciona al menos 5*)</strong></p>
+        <ul>
+            <li>from():</li>
+            <li>find():</li>
+            <li>forEach();</li>
+            <li>from();</li>
+            <li>isArray();[4]</li>
+        </ul>
+
+        <p><strong>¿Cómo se declara una variable con alcance local dentro de una función?</strong></p>
+        <p>function myFunction() {
+            var carName = "Volvo";}[5]</p>
+
+        <p><strong>¿Qué implicaciones tiene utilizar variables globales dentro de funciones?</strong></p>
+        <p>Las variables se eliminaran solamente hasta que la window se cierre[6]</p>
+        <p><strong>¿Qué método de String se puede utilizar para buscar patrones con expresiones regulares?¿Para qué podrías utilizar esto en una aplicación web?</strong></p>
+        <p>
+            El método match () busca en una cadena una coincidencia con una expresión regular y devuelve las coincidencias como un objeto Array.Se puede usar en una aplicacion web para buscar una palabra en específico[7]</p>
+    </section>
+
+
+    <section>
+        <header>
+            <h2 id="Referencias">Referencias</h2>
+        </header>
+        <p>[1] https://www.geeksforgeeks.org/difference-between-java-and-javascript/</p>
+        <p>[2]https://www.electronicproducts.com/Programming/Software/Java_vs_JavaScript_differences_and_similarities.aspx</p>
+        <p>[3] https://www.w3schools.com/js/js_date_methods.asp</p>
+        <p>[4] https://www.w3schools.com/jsref/jsref_obj_array.asp</p>
+        <p>[5] https://www.w3schools.com/js/js_scope.asp</p>
+        <p>[6] https://www.w3schools.com/js/js_scope.asp</p>
+        <p>[7] https://www.w3schools.com/jsref/jsref_match.asp</p>
+
+        <hr>
+    </section>
+
+
+    <br><br><br>
+    <script src="script4.js">
+    </script>
+</body>
+
+
+<footer id="AboutMe">
+    <p> Ivan R Ramirez Ramirez</p>
+    <p>Correo : a1702242@itesm.mx </p>
+    <p> Utilicé el editor de <strong>Brackets</strong> </p>
+    <p> Liga de descarga: <a href="http://brackets.io">Brackets.</a> </p>
+</footer>
+
+</html>
