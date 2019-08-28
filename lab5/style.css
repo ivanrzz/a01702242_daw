@@ -1,0 +1,36 @@
+h1,
+h2 {
+    text-align: center
+}
+
+
+td,
+table,
+tr {
+    width: 500px;
+    font: normal 13px Arial;
+    text-align: center;
+
+    border: 3px solid black;
+}
+
+strong {
+    text-align: center
+}
+
+
+input[type=text] {
+    width: 50%;
+    padding: 15px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.cantidad {
+    width: 25px;
+    align-content: center;
+    height: 1px;
+    padding: 10px;
+
+
+}

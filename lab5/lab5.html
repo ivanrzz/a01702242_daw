@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>LAB 5</title>
+</head>
+<header>
+    <h1><strong>Lab 5</strong><br>Ivan Ramirez Ramirez - A01702242</h1>
+</header>
+<nav>
+    <table class="tablas">
+        <tr>
+            <td> <a href="#validador"> Validador</a> </td>
+            <td> <a href="#Tienda"> Tienda en linea</a> </td>
+            <td> <a href="#Preguntas"> Preguntas </a> </td>
+            <td> <a href="#AboutMe"> Sobre mí </a> </td> <!-- table column -->
+            <td> <a href="#Referencias"> Referencias </a> </td> <!-- table column -->
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+</nav>
+
+<body>
+    <section id="validador">
+        <h2>Validador</h2>
+
+        <form id="miForm" action="" method="get" onsubmit="return validar(this)">
+            <p>
+                Contraseña: <br> <input placeholder="Escribe tu contrasena" type="text" id="contra" />
+                <br>
+                Confirmar Contraseña: <br>
+                <input placeholder="Confirma tu contrasena" type="text" id="contra1" /><br>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Borrar" />
+            </p>
+        </form>
+    </section>
+
+    <section id="tienda en linea">
+        <h2>Tienda en linea</h2>
+        <p><I>*Para evitar reventa solo se pueden ver maximo 5 articulos de cada tipo</I></p>
+
+    </section>
+    <section>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <li> <strong>COCA COLA - 10$</strong> <input type="number" id="cantidad1" class="cantidad" min="0" max="5"><br><br>
+                            </li>
+
+                            <li> <strong>PEPSI - 20$</strong>
+                                <input type="number" id="cantidad2" class="cantidad" min="0" max="5"><br><br>
+
+                            </li>
+                            <li><strong>SNICKER - 30$</strong>
+                                <input type="number" id="cantidad3" class="cantidad" min="0" max="5"> <br><br>
+
+                            </li>
+                            <li> <strong>SQUIRT - 40$</strong>
+                                <input type="number" id="cantidad4" class="cantidad" min="0" max="5"><br><br>
+
+                            </li>
+                            <li><strong>ZUCARITAS - 50$</strong>
+                                <input type="number" id="cantidad5" class="cantidad" min="0" max="5"><br><br>
+                            </li>
+
+                            <br><button onclick="comprar()">Comprar</button>
+                        </ul>
+                    </td>
+                    <td>
+                        <h2>Su ticket de compra es:</h2>
+                        <strong>COCA COLA:<section id="coca">
+                            </section>
+                            <br>
+                            PEPSI:<section id="pepsi">
+                            </section>
+                            <br>
+                            SNICKER:<section id="snicker">
+                            </section>
+                            <br>
+                            SQUIRT:<section id="squirt">
+                            </section>
+                            <br>
+                            ZUCARITAS:<section id="zucaritas">
+                            </section>
+                        </strong>
+                        <br>Total: <section id="Total"><br></section>
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </section>
+
+
+
+
+    <section id="Preguntas">
+        <header>
+            <h2>Preguntas a responder</h2>
+        </header>
+
+        <p><strong>¿Por qué es una buena práctica usar JavaScript para checar que sean válidos los inputs de las formas antes de enviar los datos al servidor?</strong></p>Es una buena practica para mantener tus datos a salvo.Y que el servidor tenga los datos correctos para futuros usos.[1]
+        <p><strong>¿Cómo puedes saltarte la seguridad de validaciones hechas con JavaScript?</strong></p> Es mediante maniupular el codigo de la pagina con el uso de la consola y asi evitar que se validen datosn> Playera .[1]
+        <p><strong>Si te puedes saltar la seguridad de las validaciones de JavaScript, entonces ¿por qué la primera pregunta dice que es una buena práctica?</strong></p> Por que con la validacion puedes manternete mas seguro y es una buena practica al momento de programar crear medidas de seguridad para que personas curiosas no penetren nuestra informacion personal[2]
+
+    </section>
+
+
+    <section>
+        <header>
+            <h2 id="Referencias">Referencias</h2>
+        </header>
+        <p>[1] https://www.geeksforgeeks.org/difference-between-java-and-javascript/</p>
+        <p>[2]https://michelletorres.mx/validar-formularios-con-javascript/ </p>
+
+
+
+    </section>
+
+
+    <br><br><br>
+    <script src="validador.js">
+    </script>
+</body>
+
+
+<footer id="AboutMe">
+    <p> Ivan R Ramirez Ramirez</p>
+    <p>Correo : a1702242@itesm.mx </p>
+    <p> Utilicé el editor de <strong>Brackets</strong> </p>
+    <p> Liga de descarga: <a href="http://brackets.io">Brackets.</a> </p>
+</footer>
+
+</html>
