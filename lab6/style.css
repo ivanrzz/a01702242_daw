@@ -1,12 +1,21 @@
 h1,
 h2 {
-    text-align: center
+    text-align: center;
+    visibility: visible;
+
+}
+
+.coloca {
+    text-align: center;
+
+
 }
 
 
 td,
 table,
 tr {
+    visibility: visible;
     width: 500px;
     font: normal 13px Arial;
     text-align: center;
@@ -18,8 +27,104 @@ strong {
     text-align: center
 }
 
-div {
+div.waterMark {
+
     position: absolute;
-    top: 50px;
-    border: 3px solid green;
+    top: 800px;
+    left: 0px;
+    opacity: 0.3;
+
+    font-family: monospace;
+    font-size: 750%;
+    text-align: center
+}
+
+
+body {
+    font-family:
+}
+
+div.a {
+    align-items: center;
+    position: relative;
+    width: 500px;
+    height: 250px;
+    border: 3px solid red;
+    top: 60px;
+}
+
+div.b {
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    top: 1250px;
+    border: 5px solid green;
+}
+
+div.d {
+
+    position: relative;
+    width: 500px;
+    height: 170x;
+    border: 10px solid blue;
+    top: 0px;
+    font-size: 100%;
+
+
+}
+
+div.botones {
+
+    position: relative;
+    width: 500px;
+    height: 200px;
+    border: 10px solid aqua;
+    font-size: 15px;
+    top: 0px;
+}
+
+div.c {
+    position: relative;
+    width: 800px;
+    height: 300px;
+    border: 10px solid black;
+    top: 750px;
+    font-size: small;
+
+}
+
+div.r {
+    position: relative;
+    width: 500px;
+    height: 150px;
+    border: 20px solid gold;
+    top: 700px;
+    font-family: monospace
+}
+
+div.drop {
+    position: relative;
+    width: 500px;
+    height: 180px;
+    border: 10px solid blue;
+    top: 0px;
+    font-size: 100%;
+}
+
+div.nav {
+    position: relative;
+    width: 500px;
+    height: 50px;
+    border: 10px solid blue;
+    top: 0px;
+    font-size: 100%;
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 110px;
+
 }
