@@ -1,0 +1,22 @@
+h1,
+h2 {
+    text-align: center
+}
+
+.programas {
+    background-color: black;
+}
+
+td,
+table,
+tr {
+    width: 500px;
+    font: normal 13px Arial;
+    text-align: center;
+
+    border: 3px solid black;
+}
+
+.centrar {
+    text-align: center
+}
