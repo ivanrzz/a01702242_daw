@@ -1,4 +1,11 @@
 <?php
+function valida($valor){
+   if($valor <=0){
+      return false;
+   }else{
+      return true;
+   }
+}
 function saludar() {
     echo '<p>Hello World</p>'; 
     $nombre = "Lalo"; 
