@@ -17,7 +17,11 @@
                         <input type="number" class="form-control input-sm  col-sm-1" name="funcion4" value="0" min="0"> <br>
                         <span>Numero 5 </span>
                         <input type="number" class="form-control input-sm  col-sm-1" name="funcion5" value="0" min="0"> <br>
-
+                       <?php if (!valida($nombre))
+                         {
+                              $errores[] = 'El campo nombre es incorrecto.';
+                         }
+                         ?>
 
                         <h3>Crear una tabla con numero Cuadrado y Cubo</h3>
                         <span class="izq">Introduce un numero </span>
